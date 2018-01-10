@@ -1,0 +1,24 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp's timestamp microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidzambo/fcc-timestamp-microservice.git"
+  },
+  "keywords": [
+    "FreeCodeCamp",
+    "timestamp",
+    "microservice"
+  ],
+  "author": "David Zambo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidzambo/fcc-timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/davidzambo/fcc-timestamp-microservice#readme"
+}
