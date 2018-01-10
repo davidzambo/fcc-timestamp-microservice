@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- OPEN GRAPH METATAGS -->
+  <meta property="og:url" content="http://www.dcmf.hu/" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="David's Code ManuFactory::From(Idea)->To(Reality);" />
+  <meta property="og:description" content="Greetings and welcome on my personal porfolios site! It's me, David, a full stack web developer. Check out my previous works, and feel free to contact with me!"
+  />
+  <meta property="og:image" content="images/timestamp-600x400.png" />
+  
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="https://www.dcmf.hu/favicon.jpg" type="image/x-icon" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Timestamp microservice</title>
+</head>
+<style>
+  html,
+  body {height:100%; width: 100%; padding: 0; margin: 0;}
+  body{color: #333; background-color: #dedede;}
+  .container{padding: 0.25rem 1rem;}
+  blockquote{margin: 0rem; border-left: 1rem solid red; padding-left: 0.5rem;}
+  ol{margin:0;}
+  li{padding: 0.25rem 0.12rem;}
+
+  h3{margin-bottom: 0.5rem;}
+  xmp{color: red; 
+    background-color: #efefef;
+    display: inline-block;
+    padding: 0.125rem 0.25rem;
+    margin: 0.25rem 0;
+    }
+  footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #333;
+    color: #dedede;
+    width: 100%;
+  }
+  footer p {
+    font-size: 0.8rem;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    text-align: center
+  }
+  footer p a img{
+    height: 0.9rem;
+    width: auto;
+    vertical-align:text-top;
+  }
+  @media screen and (min-width: 576px){
+    .container{padding: 1rem 4rem;}
+    li{padding: 0.25rem 1rem;}
+    blockquote{margin: 0rem; padding-left: 1rem;}
+  }
+</style>
+<body>
+  <div class="container">
+    <h1>Timestamp microservice</h1>
+    <blockquote>
+      <h3>User stories</h3>
+      <ol>
+        <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural
+        language date (example: January 1, 2016).</li>
+        <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+        <li>If it does not contain a date or Unix timestamp, it returns null for those properties</li>
+  
+      </ol>
+    </blockquote>
+    <h3>Example usage:</h3>
+    <xmp>https://timestamp-ms.herokuapp.com/December%2015,%202015</xmp>
+    <br/>
+    <xmp>https://timestamp-ms.herokuapp.com/December%2015,%202015</xmp>
+  
+    <h3>Example output:</h3>
+    <xmp>{ "unixTimeStamp": 1450137600, "natural": "December 15, 2015" }</xmp>
+
+  </div>
+  
+  <footer>
+    <p>
+      coded by
+      <a href="https://www.dcmf.hu/" target="_blank">
+        <img src="https://www.dcmf.hu/images/dcmf-letters.png" alt="David's Code Manufactory logo" />
+      </a> 
+    </p>
+  </footer>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-105430750-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+</body>
+</html>

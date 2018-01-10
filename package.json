@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/davidzambo/fcc-timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/davidzambo/fcc-timestamp-microservice#readme"
+  "homepage": "https://github.com/davidzambo/fcc-timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
