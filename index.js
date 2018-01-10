@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 8000;
 
 app.use(express.static('public'));
 
@@ -73,5 +74,5 @@ app.get('/:time', (req, res) => {
 
 });
 
-app.listen(80);
+ app.listen(port);
 

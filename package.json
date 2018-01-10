@@ -17,7 +17,7 @@
     "microservice"
   ],
   "author": "David Zambo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidzambo/fcc-timestamp-microservice/issues"
   },
