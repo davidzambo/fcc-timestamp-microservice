@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+ű<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <!-- OPEN GRAPH METATAGS -->
-  <meta property="og:url" content="https://thawing-woodland-15745.herokuapp.com/" />
+  <meta property="og:url" content="  <meta property="og:image" content="images/timestamp-600x400.png" />
+" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="FreeCodeCamp's Timestamp microservice;" />
-  <meta property="og:description" content="Timestramp microservice - the first FreeCodeCamp Backend project"/>
-  <meta property="og:image" content="https://thawing-woodland-15745.herokuapp.com/images/timestamp-600x400.png" />
+  <meta property="og:description" content="Timestramp microservice - the first FreeCodeCamp Backend project"
+  />
+  <meta property="og:image" content="images/timestamp-600x400.png" />
   
   
   <!-- Favicon -->
@@ -71,9 +73,9 @@
       </ol>
     </blockquote>
     <h3>Example usage:</h3>
-    <xmp>https://thawing-woodland-15745.herokuapp.com/1450137600</xmp>
+    <xmp>https://timestamp-ms.herokuapp.com/December%2015,%202015</xmp>
     <br/>
-    <xmp>https://thawing-woodland-15745.herokuapp.com/December%2015,%202015</xmp>
+    <xmp>https://timestamp-ms.herokuapp.com/December%2015,%202015</xmp>
   
     <h3>Example output:</h3>
     <xmp>{ "unixTimeStamp": 1450137600, "natural": "December 15, 2015" }</xmp>
