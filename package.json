@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/davidzambo/fcc-timestamp-microservice#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "npm": "^5.7.1"
   }
 }
